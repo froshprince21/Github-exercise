@@ -1,0 +1,32 @@
+Body{
+    background-image: url(images/883193b4-17c5-4251-911e-d0e31bc26358.jpg);
+    background-repeat: no-repeat;
+    background-size: 110%;
+}
+
+.ma{
+    text-align: center;
+}
+
+.pa {
+    border: 60px solid white;
+    height: 400px;
+    width: 350px;
+    padding: 10px 15px;
+    background-color: white;
+    margin: auto;
+    position: center;
+}
+
+textarea {
+    width: 350px;
+    resize: none;
+    height: 100px;
+}
+
+button {
+    width: 380px;
+    color: white;
+    background-color: blue;
+
+}
