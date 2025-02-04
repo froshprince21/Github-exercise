@@ -11,16 +11,19 @@ Body{
 .pa {
     border: 60px solid white;
     height: 80vh;
-    width: 85%;
+    width: 70%;
     padding: 5px;
     background-color: white;
     margin: auto;
     position: center;
 }
 
-input {
+input,button {
     width: 90%;
+    height: 40px;
 }
+
+
 
 textarea {
     width: 90%;
@@ -29,7 +32,7 @@ textarea {
 }
 
 button {
-    width: 80%;
+    width: 90%;
     color: white;
     background-color: blue;
 }

@@ -23,9 +23,11 @@
                 emailjs.sendForm('service_mazlmr2', 'template_bazvoqs', this)
                     .then(() => {
                     h1.textContent = ("message has been sent succesfully");
+                    h1.style.color= "green";
                         // console.log('SUCCESS!');
                     }, (error) => {
                       h1.textContent = ("message failed");
+                      h1.style.color = "red";
                         // console.log('FAILED...', error);
                     });
             });
@@ -40,12 +42,12 @@
     <form id="contact-form">
       <input type="hidden" name="contact_number" value="697483">
     <p><b>Name</b></p>
-    <input type="text" name="user_name" required placeholder="Name" size="50px"  height="15px"><br>
+    <input type="text" name="user_name" required placeholder="Name"><br>
     <p><b>Email</b></p>
-    <input class="ji" type="email" name="email" required placeholder="Email" size="50px">
+    <input class="ji" type="email" name="email" required placeholder="Email">
     <p><b>Message</b></p>
     <textarea name="message"></textarea><p></p>
-    <button style="position: absolute; right: bottom 50px;" class="continue-botton" type="submit">SEND<button>
+    <button style="position: relative; top: 50px;" class="continue-botton" type="submit">SEND<button>
     </form>
   </div>  
 
