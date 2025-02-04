@@ -11,7 +11,7 @@ Body{
 .pa {
     border: 60px solid white;
     height: 400px;
-    width: 350px;
+    width: 100%;
     padding: 10px 15px;
     background-color: white;
     margin: auto;
@@ -29,7 +29,7 @@ textarea {
 }
 
 button {
-    width: 380px;
+    width: 90%;
     color: white;
     background-color: blue;
 }
@@ -43,7 +43,7 @@ button {
         font-size: 1.5em;
     }
     button {
-        width: 100%;
+        width: 30%;
     }
 }
 
@@ -56,7 +56,7 @@ button {
         font-size: 1.75em;
     }
     button {
-        width: auto;
+        width: 30%;
     }
 }
 
@@ -69,7 +69,7 @@ button {
         font-size: 2em;
     }
     button {
-        width: auto;
+        width: 30%;
     }
 }
 
@@ -82,7 +82,7 @@ button {
         font-size: 2.25em;
     }
     button {
-        width: auto;
+        width: 30%;
     }
 }
 
@@ -95,6 +95,6 @@ button {
         font-size: 2.5em;
     }
     button {
-        width: auto;
+        width: 30%;
     }
 }
