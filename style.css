@@ -28,5 +28,69 @@ button {
     width: 380px;
     color: white;
     background-color: blue;
+}
 
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .container {
+        padding: 10px;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    button {
+        width: 100%;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .container {
+        padding: 15px;
+    }
+    h2 {
+        font-size: 1.75em;
+    }
+    button {
+        width: auto;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .container {
+        padding: 20px;
+    }
+    h2 {
+        font-size: 2em;
+    }
+    button {
+        width: auto;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .container {
+        padding: 25px;
+    }
+    h2 {
+        font-size: 2.25em;
+    }
+    button {
+        width: auto;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .container {
+        padding: 30px;
+    }
+    h2 {
+        font-size: 2.5em;
+    }
+    button {
+        width: auto;
+    }
 }
