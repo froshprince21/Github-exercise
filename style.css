@@ -11,7 +11,7 @@ Body{
 .pa {
     border: 60px solid white;
     height: 400px;
-    width: 100%;
+    width: 85%;
     padding: 10px 15px;
     background-color: white;
     margin: auto;
@@ -23,7 +23,7 @@ input {
 }
 
 textarea {
-    width: 350px;
+    width: 90%;
     resize: none;
     height: 100px;
 }
