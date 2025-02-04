@@ -10,7 +10,7 @@ Body{
 
 .pa {
     border: 60px solid white;
-    height: 400px;
+    height: 80vh;
     width: 85%;
     padding: 10px 15px;
     background-color: white;
@@ -35,66 +35,3 @@ button {
 }
 
 /* Extra small devices (phones, less than 576px) */
-@media (max-width: 575.98px) {
-    .container {
-        padding: 10px;
-    }
-    h2 {
-        font-size: 1.5em;
-    }
-    button {
-        width: 30%;
-    }
-}
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {
-    .container {
-        padding: 15px;
-    }
-    h2 {
-        font-size: 1.75em;
-    }
-    button {
-        width: 30%;
-    }
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) {
-    .container {
-        padding: 20px;
-    }
-    h2 {
-        font-size: 2em;
-    }
-    button {
-        width: 30%;
-    }
-}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {
-    .container {
-        padding: 25px;
-    }
-    h2 {
-        font-size: 2.25em;
-    }
-    button {
-        width: 30%;
-    }
-}
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-    .container {
-        padding: 30px;
-    }
-    h2 {
-        font-size: 2.5em;
-    }
-    button {
-        width: 30%;
-    }
-}
