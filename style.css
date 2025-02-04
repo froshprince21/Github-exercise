@@ -18,6 +18,10 @@ Body{
     position: center;
 }
 
+input {
+    width: 90%;
+}
+
 textarea {
     width: 350px;
     resize: none;
